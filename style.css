@@ -1,0 +1,450 @@
+html,
+body {
+    overflow-x: hidden;
+}
+
+.lato-thin {
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.lato-light {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lato-bold {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lato-black {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.la_10 {
+    font-size: 10px;
+}
+
+.la_12 {
+    font-size: 12px;
+}
+
+.la_14 {
+    font-size: 14px;
+}
+
+.la_16 {
+    font-size: 16px;
+}
+
+.la_18 {
+    font-size: 18px;
+}
+
+.la_20 {
+    font-size: 20px;
+}
+
+.la_22 {
+    font-size: 22px;
+}
+
+.la_24 {
+    font-size: 24px;
+}
+
+.la_26 {
+    font-size: 26px;
+}
+
+.la_28 {
+    font-size: 28px;
+}
+
+.la_30 {
+    font-size: 30px;
+}
+
+.la_32 {
+    font-size: 32px;
+}
+
+.la_34 {
+    font-size: 34px;
+}
+
+.la_36 {
+    font-size: 36px;
+}
+
+.la_38 {
+    font-size: 38px;
+}
+
+.la_40 {
+    font-size: 40px;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    /* font-weight: bold;
+    font-size: 1rem; */
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand img {
+    margin-right: 8px;
+}
+
+.navbar-nav .nav-link {
+    color: #706666;
+    font-size: 14px;
+    /* margin-right: 15px; */
+}
+
+.navbar-nav .nav-link.active {
+    color: #111111;
+}
+
+.navbar .btn-primary {
+    background-color: #8796AA;
+    border: none;
+    border-radius: 20px;
+}
+
+.navbar .btn-outline-danger {
+    border-radius: 20px;
+    border-color: #D26E4B;
+    color: #D26E4B;
+}
+
+.navbar .btn-outline-danger:hover {
+    background-color: #D26E4B;
+    color: #fff;
+}
+
+.btn-style {
+    border: 1px solid #F1F1F1;
+    color: #F1F1F1;
+}
+
+.btn-style:hover {
+    border: 2px solid #F1F1F1;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+.list-unstyled li {
+    font-size: 16px;
+}
+
+.la_col_222 {
+    color: #222222;
+}
+
+.la_col_7066 {
+    color: #706666;
+}
+
+.hero-section {
+    position: relative;
+    background: url('./img/banner-img.jpg') no-repeat center center/cover;
+    width: 100%;
+    /* height: 100vh; */
+    transition: transform 2s ease-in-out;
+}
+
+.hero-section:hover {
+    transform: scale(1.05);
+}
+
+.hero-section:active {
+    transform: scale(0.95);
+}
+
+.overlay {
+    /* position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; */
+    /* background-image: url(./img/banner\ \(1\).png);
+    background-repeat: no-repeat;
+    width: 100%; */
+    background-color: rgba(45, 51, 63, 0.62);
+}
+
+.hero-section h1 {
+    z-index: 1;
+}
+
+.hero-section p,
+.hero-section ul,
+.hero-section a {
+    z-index: 1;
+}
+
+.hero-section .btn {
+    border-radius: 30px;
+    padding: 10px 20px;
+}
+
+.pricing-card {
+    /* border: 1px solid #ddd; */
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.pricing-card:hover {
+    transform: scale(1.05);
+}
+
+.pricing-card img {
+    max-width: 80px;
+    margin-bottom: 15px;
+}
+
+.pricing-card h4 {
+    color: #535555;
+    font-size: 1.25rem;
+    margin-bottom: 15px;
+}
+
+.pricing-card span {
+    color: #00AAE7;
+}
+
+.pricing-card .price {
+    color: #706666;
+    /* Custom color for the price */
+    font-weight: regular;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.pricing-card ul {
+    padding: 0;
+}
+
+.pricing-card ul li {
+    text-align: left;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.btn-learn-more {
+    background-color: #ffffff;
+    color: #8796AA;
+    border: 2px solid #8796AA;
+    padding: 5px 20px;
+    border-radius: 25px;
+    margin-top: 15px;
+}
+
+.btn-learn-more:hover {
+    /* background-color: #a9b0bc; */
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+.services-section {
+    background-color: #F9F9F9;
+}
+
+.services-section h2 {
+    color: #555555;
+}
+
+.services-section p.lead {
+    color: #555555;
+}
+
+.service-item {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.service-item h5 {
+    color: #555555;
+    margin-bottom: 10px;
+}
+
+.service-item p {
+    color: #555555;
+}
+
+.service-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.service-main img {
+    width: 100%;
+    /* max-width: 300px; */
+    border-radius: 50%;
+    transition: transform 2s ease;
+    /* background-color: #3d3d3d; */
+    /* padding: 20px; */
+}
+
+.service-main:hover img {
+    transform: rotate(360deg);
+}
+
+.meet-team-back-img {
+    background: url('./img/team-pic1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+    min-height: 130vh;
+}
+
+.text-color-meet-team {
+    color: #E5E5E5;
+}
+
+.help-section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.help-section h2 {
+    margin-bottom: 100px;
+    color: #706666;
+}
+
+.help-section .image-container {
+    /* background-color: #3a3a3a; */
+    border-radius: 50%;
+    /* height: 250px;
+    width: 250px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.help-section .image-container img {
+    max-width: 100%;
+    border-radius: 50%;
+    transition: transform 2s ease;
+}
+
+.image-container:hover img {
+    transform: rotate(-360deg);
+}
+
+.help-section ul {
+    padding: 0;
+}
+
+.help-section ul li {
+    margin: 10px 0;
+    color: #706666;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer .footer-logo {
+    max-width: 50px;
+    margin-right: 10px;
+}
+
+.footer .payment-icons img {
+    max-height: 25px;
+    margin-right: 10px;
+}
+
+.footer .back-to-top {
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+.footer a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.card-body h4,p {
+    color: #ffffff;
+}
+
+/* Show the dropdown on hover */
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+
+.nav-item.dropdown:hover .nav-link {
+    color: #000;
+}
+
+
+/* Responsive adjustments */
+@media (max-width: 991px) {
+    .navbar-brand {
+        font-size: 1.1rem;
+    }
+
+    .navbar-nav .nav-link {
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar .btn {
+        font-size: 0.9rem;
+        padding: 0.5rem 1rem;
+    }
+
+    .service-item {
+        margin-bottom: 30px;
+    }
+
+    .service-main img {
+        max-width: 250px;
+    }
+
+    .hero-section h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-section ul {
+        font-size: 1rem;
+    }
+
+    .help-section .col-md-4 {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-section h1 {
+        font-size: 2rem;
+    }
+}
